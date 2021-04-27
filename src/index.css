@@ -15,7 +15,7 @@ body {
 .bookList {
   width: 90vw;
   max-width: 1170px;
-  margin: 5rem auto;
+  margin: 1rem auto;
   display: grid;
   gap: 2rem;
 }
@@ -23,6 +23,10 @@ body {
 @media screen and (min-width: 768px) {
   .bookList {
     grid-template-columns: repeat(3, 1fr);
+    /* cardBook 1 akan memanjang krna text paragraf,
+    agar cardBook 2 tidak mengikuti solution gunakan align-items : start
+     */
+    align-items: flex-start;
   }
 }
 
@@ -31,8 +35,18 @@ body {
   padding: 1rem 2rem;
   color: #222;
   border-radius: 0.5rem;
+  text-align: center;
 }
 
 .cardBook h1 {
   margin: 0.5rem 0;
+}
+
+.cardBook img {
+  width: 300px;
+  object-fit: cover;
+}
+
+.cardBook h4 {
+  color: rgb(65, 64, 64);
 }

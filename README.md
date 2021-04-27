@@ -25,4 +25,4 @@ dan untuk reactnya adalah semua list yang sudah dipelajari dalam react basic
 
 ![dasar react js with grid.](/Images/SS-Wiwa-1.png "Screenshot basic react project")
 
-Atau bisa lihat akses view nya disini : [wiwa Live Preview basic project](wiwa-reactbasicprojectbegin).
+Atau bisa lihat akses view nya disini : [wiwa Live Preview basic project](https://wiwa-reactbasicprojectbegin.netlify.app/).
